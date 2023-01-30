@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    padding: 50px 50px 0px ;
+    overflow: hidden;
+    
+}
+#banner{
+    max-width: 100%;
+}
+
+nav{
+    display: block;
+    position: absolute;
+    margin-left: 900px;
+    top: 95px; 
+}
+
+nav>a {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+    filter: drop-shadow(1px 1px 10px #0000);
+    box-shadow: 4px 5px grey;
+    
+    
+}
+
+#home {
+    background-color: green;
+    color: white;
+   
+}
+h1{
+    font-size: 45px ;
+}
+section{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 0px 50px 0px 50px;
+    position: relative;
+}
+h3{
+    border: solid black;
+    text-align: center; 
+    font-size: 30px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    margin-top: 50px;
+    width: 200px;
+    display: block;
+}
+
+h4{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
+.evento, .evento2{
+    margin-top: 30px;
+}
+#contact{
+    left: 350px;
+    margin-top: 50px;
+}
+#contact>p{
+    font-size: 30px;
+    margin:30px;
+}
+article{
+    width: 900px;
+    display: inline-block;
+    position: relative;
+    
+    bottom: 200px;
+    left: 300px;
+}
+#tittleab{
+    margin-top: 40px;
+}
+#textab{
+    text-indent: 20px;
+}
