@@ -52,6 +52,7 @@ section{
     position: relative;
 }
 h3{
+    position: absolute;
     border: solid black;
     text-align: center; 
     font-size: 30px;
